@@ -39,6 +39,10 @@ public class App {
                 """.formatted(nome, aulas);
         // ________________________________________________________________________________________________________
 
-
+        System.out.println(mensagem);
+        System.out.println(mensagem2);
     }
+
+
+
 }
