@@ -41,8 +41,6 @@ public class App {
 
         System.out.println(mensagem);
         System.out.println(mensagem2);
-
-        awrdasd
     }
 
 
