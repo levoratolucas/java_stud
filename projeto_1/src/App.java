@@ -5,48 +5,21 @@ public class App {
 
         Scanner scanner = new Scanner(System.in);
 
-        Double pi = 3.146546;
+        
+        double valor1 = 10.0;
+        int f = (int) valor1;
+        System.out.println(f);
+        
+        Double valor2 = 101.0;
+        int f2 = valor2.intValue();
+        System.out.println(f2);
 
-        System.out.printf("nuemro teste %.4f \n\nqual a senha? \n\n", pi);
 
-        String senha = scanner.nextLine();
 
-        String senhaCorreta = "12345";
 
-        if (senha.equals(senhaCorreta)) {
-            System.out.println("Acesso autorizado!");
-        } else {
-            System.out.println("Senha incorreta.");
-        }
-
-        // ______________________________ pra concatenar variaveis dentro de box de texto ________________________
-
-        String nome = "João";
-        int aulas = 4;
-
-        // metodo 1
-        String mensagem = String.format("""
-                Olá, %s!
-                Boas vindas ao curso de Java.
-                Teremos %d aulas para te mostrar o que é preciso para você dar o seu primeiro mergulho na linguagem!
-                """, nome, aulas);
-
-        // metodo 2
-        String mensagem2 = """
-                Olá, %s!
-                Boas vindas ao curso de Java.
-                Teremos %d aulas para te mostrar o que é preciso para você dar o seu primeiro mergulho na linguagem!
-                """.formatted(nome, aulas);
-        // ________________________________________________________________________________________________________
-
-        System.out.println(mensagem);
-        System.out.println(mensagem2);
 
 
         scanner.close();
-        
     }
-
-
 
 }
